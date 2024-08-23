@@ -1,0 +1,177 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(219, 216, 216);
+  width: 100%;
+  height: 67rem;
+}
+
+.navSection {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.dashTitle {
+  padding: 20px;
+  color: blue;
+}
+
+.dashTitle span {
+  color: rgb(230, 226, 226);
+  cursor: pointer;
+}
+
+.searchInput {
+  position: relative;
+  width: 30rem;
+  height: 34px;
+  top: 17px;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: whitesmoke;
+  text-align: start;
+}
+
+.userIcon {
+  padding: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.dashboard {
+  font-family: Arial, sans-serif;
+  /* padding: 20px; */
+  width: 90%;
+  height: 62rem;
+  /* background: rgb(192, 190, 190); */
+}
+
+.removeBtn {
+  width: 80px;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.widgetContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.category {
+  margin-bottom: 40px;
+}
+
+.categoryName {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.widget-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.widget-card {
+  border: none;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.placeholder-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-widget-panel .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  right: 36px;
+  bottom: 30px;
+  width: 29rem;
+  height: 45px;
+  /* background-color: blue; */
+}
+
+.header .addTitle {
+  color: #000;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+
+.add-widget-panel {
+  position: fixed;
+  right: 0;
+  top: 10px;
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+  border-left: 1px solid black;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputField {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  position: relative;
+  top: 15px;
+  width: 15rem;
+  height: 3rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.addWidget {
+  position: relative;
+  width: 15rem;
+  height: 3rem;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.addBtn {
+  width: 100px;
+  border: none;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.close-panel {
+  position: relative;
+  padding: 10px;
+  right: 7px;
+  background: none;
+  color: #000;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
